@@ -7,7 +7,7 @@
     <title>Word guessing game</title>
 </head>
 <body>
-    <h1>Type the adjectives here:</h1>
+    <h1>Type the words here:</h1>
     <input id="value1" type="text" placeholder="adjective"> 
     <input id="value2" type="text" placeholder="female name">
     <input id="value3" type="text" placeholder="name of the room in house">
@@ -15,13 +15,12 @@
     <input id="value5" type="text" placeholder="male name">
     <input id="value6" type="text" placeholder="verb ending in -ing">
     <input id="value7" type="text" placeholder="noun (food – plural)">
-    <input id="value8" type="text" placeholder="adverb">
-    <input id="value9" type="text" placeholder="adjective">
-    <button id="submit-button">Create</button>
-    <p>
-        One <br id="text-value1"></br> Thursday night, Michelle was sitting in the living room with her pet rabbit, Mortimer.
-        She was reading her favorite book, The History of Cheesemaking, and snacking on some carrots.
-        Suddenly, there was a loud noise.
+    <button id="submit-button" onclick="makeStory()">Create</button>
+    <p id="text">
+        One <b id="text-value1"></b> Thursday night, <b id="text-value2"></b> was sitting in the <b id="text-value3"></b>
+        with her pet <b id="text-value4"></b> <b id="text-value5"></b>.
+        She was reading her favorite book, The History of <b id="text-value6"></b>,
+        and snacking on some <b id="text-value7"></b>.
     </p>
     <script src="app.js"></script>
 </body>
