@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vārdu spēle</title>
+  </head>
+  <body>
+    <h1>Ieraksti vārdus:</h1>
+    <input id="value1" type="text" placeholder="īpašības vārds - siev. dz." />
+    <input id="value2" type="text" placeholder="darbības vārds nenoteiksmē" />
+    <input
+      id="value3"
+      type="text"
+      placeholder="ēdiena nosaukums - daudzskaitlī"
+    />
+    <input id="value4" type="text" placeholder="cilvēka vārds" />
+    <button id="submit-button" onclick="makeStory()">Izveidot</button>
+    <button id="reset-button" onclick="reset()">Notīrīt</button>
+    <p id="text"></p>
+    <script src="app.js"></script>
+  </body>
+</html>
